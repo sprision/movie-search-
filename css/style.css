@@ -7,10 +7,11 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #1b5fbe;
     color: white;
     padding: 10px;
     text-align: center;
+    border: 2px solid black;
 }
 
 nav ul {
@@ -29,12 +30,12 @@ nav ul li a {
 }
 
 .hero {
-    background: url('banner.jpg') no-repeat center center;
+    background: url(../img/banner2.jpg) no-repeat center center;
     background-size: cover;
     text-align: center;
     padding: 100px 20px;
     color: white;
-    color: black;
+    
 }
 
 .hero h1 {
@@ -72,11 +73,11 @@ button:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #1b5fbe;
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
     width: 100%;
     bottom: 0;
+    border: 2px solid black;
 }

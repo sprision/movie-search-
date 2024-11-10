@@ -17,15 +17,6 @@ const showMovies = (data) => {
     data.results.forEach(
         (result) => {
             const imagePath = result.poster_path === null ? "img/image-missing.png" : IMGPATH + result.poster_path;
-            // const box = `
-            // <div class="box">
-            //     <img src="${IMGPATH+result}" alt="" />
-            //     <div class="overlay">
-            //         <h2>Overview:</h2>
-            //         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis iste doloribus quam voluptatum, illum unde nostrum dignissimos, mollitia, sapiente porro natus neque cupiditate distinctio quod possimus aliquid reiciendis vel. Soluta?
-            //     </div>
-            // </div>
-            // `
             const box = document.createElement("div")
             box.classList.add("box")
             box.innerHTML = `

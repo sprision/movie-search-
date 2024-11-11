@@ -29,6 +29,10 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
 .hero {
     background: url(../img/banner2.jpg) no-repeat center center;
     background-size: cover;
@@ -47,6 +51,15 @@ nav ul li a {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
+}
+
+.features{
+    transition:scale 0.4s;
+}
+
+.features:hover{
+    scale: 1.01;
+    border: 2px solid;
 }
 
 form {
